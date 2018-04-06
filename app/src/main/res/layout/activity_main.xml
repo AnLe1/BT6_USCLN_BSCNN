@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.lecongan.bt6_uscln_bscnn.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhap_so_a"
+         />
+    <EditText
+        android:layout_below="@+id/tv1"
+        android:id="@+id/edt_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/edt_a"
+        android:id="@+id/tv2"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhap_so_b"
+        />
+    <EditText
+        android:layout_below="@+id/tv2"
+        android:id="@+id/edt_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@id/edt_b"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="@string/thuc_hien"
+        android:layout_below="@+id/edt_b"
+        android:id="@+id/btnTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Clear"
+        android:layout_below="@+id/edt_b"
+        android:id="@+id/btnXoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/ll"
+        android:id="@+id/tv_kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_kq"
+        android:id="@+id/tv_kq1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
